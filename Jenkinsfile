@@ -30,7 +30,7 @@ node {
       srcTag: 'latest',
       destinationNamespace: 'ingresos-production',
       destStream: 'python-app',
-      destTag: 'production'
+      destTag: 'prod'
     openshiftVerifyDeployment depCfg: 'python-app',
       namespace: 'ingresos-production'
   }
